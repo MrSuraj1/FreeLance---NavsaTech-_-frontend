@@ -8,6 +8,7 @@ import ShippingForm from "./compnenet/shipping";
 import OrderSuccess from "./compnenet/succes";
 import AdminOrder from "./compnenet/admin";
 import Found from "./404";
+import Footer from "./compnenet/Footer";
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
          <Route path="/order-success" element={<OrderSuccess />} />
           <Route path="/admimOrder" element={<AdminOrder />} />
           <Route path="*" element={<Found />} />
+       
       </Routes>
+         <Footer />
     </>
   );
 }
