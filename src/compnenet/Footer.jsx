@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo & About */}
         <div>
-          <img src=".jpg" alt="NavsaTech Logo" className="w-20 mb-3" />
+          <img src="/djk" alt="NavsaTech Logo" className="w-20 mb-3" />
           <p className="text-sm">
             NavsaTech provides modern tech solutions to grow your business.
           </p>
