@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo & About */}
         <div>
-          <img src="/logo.png" alt="NavsaTech Logo" className="w-28 mb-3" />
+          <img src="../public/mm.jpg" alt="NavsaTech Logo" className="w-28 mb-3" />
           <p className="text-sm">
             NavsaTech provides modern tech solutions to grow your business.
           </p>
@@ -28,17 +28,17 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="hover:text-white">
+            <a href="https://www.facebook.com/share/1B98gHfRFb/" target="_blank" rel="noreferrer" className="hover:text-white">
               <FaFacebookF size={20} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-white">
-              <FaTwitter size={20} />
+            <a href="https://youtube.com/@navsatech?si=sSXQr0D15KtiQ2nG" target="_blank" rel="noreferrer" className="hover:text-white">
+              <FaYoutube size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white">
-              <FaLinkedinIn size={20} />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-white">
+            <a href="https://www.instagram.com/navsatech?igsh=c3pnaWY4aHUxaDJn" target="_blank" rel="noreferrer" className="hover:text-white">
               <FaInstagram size={20} />
+            </a>
+             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-white">
+              <FaTwitter size={20} />
             </a>
           </div>
         </div>
