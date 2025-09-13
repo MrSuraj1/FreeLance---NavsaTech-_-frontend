@@ -10,7 +10,7 @@ export default function ShopPageh() {
   // Fetch products with API instance
   const fetchProducts = async () => {
     try {
-      const res = await API.get("/shop"); // ✅ no need to write full URL
+      const res = await API.get("/shopss"); // ✅ no need to write full URL
       setProducts(res.data);
     } catch (error) {
       console.error(
