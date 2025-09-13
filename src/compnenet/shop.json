@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "HDD - 1TB Hard Disk",
+    "price": "1050",
+    "description": "High-speed 1TB hard disk for your PC.",
+    "image": "https://5.imimg.com/data5/TL/OV/MY-33838980/hard-disk-500x500.jpg"
+  },
+  {
+    "id": 2,
+    "name": "SSD - 512GB",
+    "price": "1570",
+    "description": "Ultra-fast 512GB SSD for faster boot and performance.",
+    "image": "https://m.media-amazon.com/images/I/61DKDS4wV9L._SX679_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "RAM - 16GB DDR4",
+    "price": "880",
+    "description": "High-speed 16GB DDR4 RAM module for multitasking.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThFlZLOz_a_TY1yWyqMug3ZYGZJn26jwFtrdJYxdmm7mv7tevzvY20yqXqO-wTxH6VjELl4le8mDnoqZKc3he6DObixY6DTNgWcmPmlw2rmzORFrSgfVRGhrI"
+  },
+  {
+    "id": 4,
+    "name": "CPU - Intel i7 12th Gen",
+    "price": "29320",
+    "description": "Powerful Intel Core i7 12th Gen processor for gaming and productivity.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQeoATdKXKLrPupqUsK0ZAzoDYhDf29ogFFt6Szx7dS0qnxd08oSkmvCRXRIf0POuYfMKOaWAv8SXBavU-H5VqG_Ium1FoHEzvQoxXnY24"
+  },
+  {
+    "id": 5,
+    "name": "Motherboard - ASUS Prime Z690",
+    "price": "2180",
+    "description": "ASUS Prime Z690 motherboard with DDR5 and PCIe 5.0 support.",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSoBz5SzQc-Ukb4P_Y_b8bld9gu8xWBWhrXyf4lP8cPNAe_LbMB5jmh2guzJBGAFRi47Xe-X068zzH6BHQVr90kRr1nbsA_ImjtwYOaPgSvVnshxF6t2kKt"
+  },
+  {
+    "id": 6,
+    "name": "Graphics Card - NVIDIA RTX 3060",
+    "price": "34400",
+    "description": "NVIDIA RTX 3060 with 12GB GDDR6 for gaming and AI workloads.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBfz2mTyJIlSg50VqdBDWCjpIkbSaq10i_LXrXwHtW53NVsJqJFg9e8VmMzC_v2uJBr_fQN_fA1pM16vC261yUIdbuH9E-c2Ntkunr1Oy1D_ncj0VhDroX_A"
+  },
+  {
+    "id": 7,
+    "name": "Power Supply - 650W",
+    "price": "2275",
+    "description": "Reliable 650W power supply unit for stable performance.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSi4v-VbIqDSEQYwcFWEKPS9a3QXM9H7PH5kgCmHH6R6v_VqJoVPN5cqDMebI36lSexvPh-LI5FFHuiFGENY-gA5lLrzaEd9YoMDjqsLmBfjEWbqiGlfZga"
+  },
+  {
+    "id": 8,
+    "name": "Computer Case - ATX Mid Tower",
+    "price": "2890",
+    "description": "Stylish ATX mid tower case with RGB lighting.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRF38ibvoY-8zqPtHaBRxSwyLt5ABZUMg8VofdN4-DgF9QI6k72OaFO8iPY_uXD12Y4Kls2Ip_1Ga3ynvi_W3AvMzc-vKCXOF41K6NXrtZLwktes8CUnEE8"
+  },
+  {
+    "id": 9,
+    "name": "Monitor - 24 inch Full HD",
+    "price": "4150",
+    "description": "24-inch Full HD monitor with 75Hz refresh rate.",
+    "image": "https://m.media-amazon.com/images/I/51b7UbxzP4L._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Keyboard & Mouse Combo",
+    "price": "740",
+    "description": "Mechanical keyboard with RGB + precision mouse combo.",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSolPoQ8Goxk-4y8QiSMKzisYo5ryKiWoH3nVTtKKgn0XNlvTTAHWeiB5w0MIv2BQp7lpRBUNsuI2WEEHCsiwVkY2R5ldxVEvvN18odhlqKj2crz_cq1pgD0A"
+  }
+]
