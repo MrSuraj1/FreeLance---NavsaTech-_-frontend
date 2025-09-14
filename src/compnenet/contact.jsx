@@ -50,9 +50,9 @@ export default function Contact() {
             <p className="text-gray-700">Get in touch with us using the details below:</p>
 
             <div className="space-y-3 text-gray-800">
-              <p><strong>📍 Address:</strong> 123 Business Street, Delhi, India</p>
-              <p><strong>📧 Email:</strong> support@navsatech.com</p>
-              <p><strong>📞 Phone:</strong> +91 9876543210</p>
+              <p><strong>📍 Address:</strong> R 887, Block R, Raghubir Nagar, Tagore Garden Extension, New Delhi, Delhi, 110027</p>
+              <p><strong>📧 Email:</strong> manoj.yadav@navsatech.com</p>
+              <p><strong>📞 Phone:</strong> +91 +91 9711448847</p>
             </div>
 
             <div className="mt-6">
