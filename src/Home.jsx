@@ -6,15 +6,17 @@ import Footer from "./compnenet/Footer"
 import ShopPage from "./compnenet/shop"
 import ShopPageh from "./compnenet/shoppageh"
 import Hero from "./compnenet/HomeSection"
+import WhyChooseUs from "./headcompnent/choose"
 
 
 export default function Home(){
     return (<>
          <Navbar />
-  
+
    <ITServices />
-  
+    <WhyChooseUs />
    <ShopPageh />
+   
    <Testimonials />
 
    

@@ -107,7 +107,7 @@ function Navbar() {
       </Link>
       <Link
         to="/contact"
-        className="bg-transparent border border-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-white hover:text-black hover:scale-105 transition transform"
+        className="bg-transparent  bg-white text-black border border-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-white hover:text-black hover:scale-105 transition transform"
       >
         Request a Quote
       </Link>
