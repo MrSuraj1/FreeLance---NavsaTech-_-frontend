@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaNetworkWired, FaCloud, FaTools, FaLock } from 'react-icons/fa';
+import { FaNetworkWired, FaCloud, FaTools, FaLock, FaLaptop, FaMobile, FaPage4 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const services = [
@@ -23,6 +23,22 @@ const services = [
     description: "Protect your business from threats with top-notch security.",
     icon: <FaLock className="text-4xl text-red-500 mb-4" />,
   },
+  {
+    title: "Laptop/dekstop Rental",
+    description: "We are give the laptop on rents with suitable price ",
+    icon: <FaLaptop className="text-4xl text-red-500 mb-4" />,
+  },
+  {
+    title: "Printer Rental",
+    description: "We are give the Printer on rents with suitable price  ",
+    icon: <FaPage4 className="text-4xl text-red-500 mb-4" />,
+  },
+  {
+    title: "Mobile Repaire",
+    description: "Repaire the all brands of mobile with suitable price ",
+    icon: <FaMobile className="text-4xl text-red-500 mb-4" />,
+  },
+  
 ];
 
 const ITServices = () => {
