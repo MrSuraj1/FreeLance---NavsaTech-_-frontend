@@ -8,7 +8,7 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="relative h-[300px] md:h-[480px] overflow-hidden">
+    <header className="relative h-[480px] md:h-[480px] overflow-hidden">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
