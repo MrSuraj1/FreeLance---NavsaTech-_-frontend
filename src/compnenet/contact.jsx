@@ -52,7 +52,7 @@ export default function Contact() {
             <div className="space-y-3 text-gray-800">
               <p><strong>📍 Address:</strong> R 887, Block R, Raghubir Nagar, Tagore Garden Extension, New Delhi, Delhi, 110027</p>
               <p><strong>📧 Email:</strong> manoj.yadav@navsatech.com</p>
-              <p><strong>📞 Phone:</strong> +91 +91 9711448847</p>
+              <p><strong>📞 Phone:</strong> +91 9711448847</p>
             </div>
 
             <div className="mt-6">
