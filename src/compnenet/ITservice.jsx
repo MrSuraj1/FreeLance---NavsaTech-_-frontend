@@ -24,7 +24,7 @@ const services = [
     icon: <FaLock className="text-4xl text-red-500 mb-4" />,
   },
   {
-    title: "Laptop/dekstop Rental",
+    title: "Laptop & dekstop Rental",
     description: "We provide Printer on rental basis with suitable price",
     icon: <FaLaptop className="text-4xl text-red-500 mb-4" />,
   },
