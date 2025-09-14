@@ -11,9 +11,8 @@ import Hero from "./compnenet/HomeSection"
 export default function Home(){
     return (<>
          <Navbar />
-  
    <ITServices />
-  
+   <Hero />
    <ShopPageh />
    <Testimonials />
 
