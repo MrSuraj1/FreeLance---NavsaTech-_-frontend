@@ -25,12 +25,12 @@ const services = [
   },
   {
     title: "Laptop/dekstop Rental",
-    description: "We are give the laptop on rents with suitable price ",
+    description: "We provide Printer on rental basis with suitable price",
     icon: <FaLaptop className="text-4xl text-red-500 mb-4" />,
   },
   {
     title: "Printer Rental",
-    description: "We are give the Printer on rents with suitable price  ",
+    description: "We provide Printer on rental basis with suitable price ",
     icon: <FaPage4 className="text-4xl text-red-500 mb-4" />,
   },
   {
