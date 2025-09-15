@@ -10,6 +10,8 @@ import AdminOrder from "./compnenet/admin";
 import Found from "./404";
 import Footer from "./compnenet/Footer";
 import AdminProducts from "./compnenet/AdminProducts";
+import BlogPage from "./blog/blogPage";
+import SingleBlog from "./blog/singlePage";
 
 function App() {
   return (
@@ -28,6 +30,11 @@ function App() {
          <Route path="/order-success" element={<OrderSuccess />} />
           <Route path="/admimOrder" element={<AdminOrder />} />
           <Route path="/addProduct" element={<AdminProducts />} />
+
+           <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:id" element={<SingleBlog />} />
+
+
           <Route path="/*" element={<Found />} />
            
       </Routes>

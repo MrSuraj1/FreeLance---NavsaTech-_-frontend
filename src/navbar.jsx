@@ -77,6 +77,9 @@ function Navbar() {
             Shop
           </Link>
  
+          <Link to="/blog" className="block py-2 md:py-0">
+            Blog
+          </Link>
           
           <Link to="/about" className="block py-2 md:py-0">
             About
