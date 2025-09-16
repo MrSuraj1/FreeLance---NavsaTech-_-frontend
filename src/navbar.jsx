@@ -27,9 +27,16 @@ function Navbar() {
       {/* Navbar Content */}
       <nav className="relative z-20 flex items-center justify-between p-4 text-white">
         {/* Logo */}
-        <div className="text-lg font-bold">
-          <Link to="/">NAVSA TECH</Link>
-        </div>
+     <div className="backdrop-blur-sm bg-white/5 rounded-lg p-4 w-fit shadow-xl">
+  <div className="text-2xl font-bold tracking-wide uppercase text-white drop-shadow-[0_1px_6px_rgba(255,255,255,0.3)] transition duration-300 ease-in-out hover:scale-105">
+    <Link to="/">NAVSATECH</Link>
+  </div>
+</div>
+
+
+
+
+
 
         {/* Hamburger button - shown on mobile */}
         <div className="md:hidden">

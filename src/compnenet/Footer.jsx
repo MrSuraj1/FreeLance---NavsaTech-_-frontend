@@ -46,7 +46,7 @@ export default function Footer() {
 
       {/* Bottom Section */}
       <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-400">
-        <p>© {new Date().getFullYear()} NavsaTech. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} NavsaTech & Developer. All rights reserved.</p>
         <p className="mt-1">Developed by <span className="text-white">Suraj</span></p>
       </div>
     </footer>
