@@ -1,6 +1,7 @@
 // src/Navbar.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaCartArrowDown } from "react-icons/fa";
 
 function Navbar2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ function Navbar2() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="relative h-[480px] md:h-[100px] overflow-hidden">
+    <header className="relative h-[320px] md:h-[100px] overflow-hidden">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -87,13 +88,16 @@ function Navbar2() {
           <Link to="/blog" className="block py-2 md:py-0">
             Blog
           </Link>
-          
           <Link to="/about" className="block py-2 md:py-0">
             About
           </Link>
           <Link to="/contact" className="block py-2 md:py-0">
             Contact
           </Link>
+         <Link to="/cart" className="block py-2 md:py-0 bg-blue-800 p-2 rounded">
+                  <div className="flex "> Cart <FaCartArrowDown className="mt-1 ml-1"/></div>
+           </Link> 
+          
         </div>
       </nav>
 

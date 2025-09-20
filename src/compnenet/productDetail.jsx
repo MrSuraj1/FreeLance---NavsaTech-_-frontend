@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Navigate } from "react-router-dom";
 import API from "../api";
 import Cookies from "js-cookie";
-import Navbar from "../navbar";
+
+import Navbar2 from "../navbar2";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -45,13 +46,15 @@ const handleBuyNow = () => {
 
     localStorage.setItem("cart", JSON.stringify(cart));
     alert(`${product.name} added to cart 🛒`);
+    
+     navigate('/cart');
   };
 
   if (!product) return <h2 className="text-center mt-10">Loading...</h2>;
 
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <div className="p-6 max-w-4xl mx-auto">
         <h1 className="text-center text-2xl bg-blue-950 p-2 m-2 text-white rounded-lg">
           Product Details

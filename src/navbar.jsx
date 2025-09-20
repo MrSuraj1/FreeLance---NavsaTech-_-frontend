@@ -1,5 +1,6 @@
 // src/Navbar.jsx
 import React, { useState } from "react";
+import { FaCartArrowDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -91,9 +92,14 @@ function Navbar() {
           <Link to="/about" className="block py-2 md:py-0">
             About
           </Link>
+        
           <Link to="/contact" className="block py-2 md:py-0">
             Contact
           </Link>
+                  <Link to="/cart" className="block py-2 md:py-0 bg-blue-800 p-2 rounded">
+        <div className="flex "> Cart <FaCartArrowDown className="mt-1 ml-1"/></div>
+          </Link>
+ 
         </div>
       </nav>
 
