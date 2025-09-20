@@ -12,6 +12,7 @@ import Footer from "./compnenet/Footer";
 import AdminProducts from "./compnenet/AdminProducts";
 import BlogPage from "./blog/blogPage";
 import SingleBlog from "./blog/singlePage";
+import CartPage from "./headcompnent/cart";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
           <Route path="/addProduct" element={<AdminProducts />} />
            <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<SingleBlog />} />
-
+          <Route path="/cart" element={<CartPage />} />  
 
           <Route path="/*" element={<Found />} />
            

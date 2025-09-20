@@ -1,0 +1,105 @@
+// src/Navbar.jsx
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
+function Navbar2() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  return (
+    <header className="relative h-[480px] md:h-[100px] overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="https://www.pexels.com/download/video/3255275/" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Overlay (optional, for better text contrast) */}
+      <div className="absolute inset-0 bg-violet-900/40 z-10"></div>
+
+      {/* Navbar Content */}
+      <nav className="relative z-20 flex items-center justify-between p-4 text-white">
+        {/* Logo */}
+     <div className="backdrop-blur-sm bg-white/5 rounded-lg p-4 w-fit shadow-xl">
+  <div className="text-2xl font-bold tracking-wide uppercase text-white drop-shadow-[0_1px_6px_rgba(255,255,255,0.3)] transition duration-300 ease-in-out hover:scale-105">
+    <Link to="/">NAVSATECH</Link>
+  </div>
+</div>
+
+
+
+
+
+
+        {/* Hamburger button - shown on mobile */}
+        <div className="md:hidden">
+          <button
+            onClick={toggleMenu}
+            className="focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {isOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              )}
+            </svg>
+          </button>
+        </div>
+
+        {/* Navigation Links */}
+        <div
+          className={`flex-col md:flex md:flex-row md:items-center md:space-x-6 absolute md:static left-0 w-full md:w-auto bg-violet-900 md:bg-transparent p-4 md:p-0 transition-all duration-300 ease-in-out ${
+            isOpen ? "top-16" : "top-[-500px]"
+          }`}
+        >
+          <Link to="/" className="block py-2 md:py-0">
+            Home
+          </Link>
+          <Link to="/shop" className="block py-2 md:py-0">
+            Shop
+          </Link>
+ 
+          <Link to="/blog" className="block py-2 md:py-0">
+            Blog
+          </Link>
+          
+          <Link to="/about" className="block py-2 md:py-0">
+            About
+          </Link>
+          <Link to="/contact" className="block py-2 md:py-0">
+            Contact
+          </Link>
+        </div>
+      </nav>
+
+{/* Hero Content */}
+    </header>
+  );
+}
+
+export default Navbar2;
